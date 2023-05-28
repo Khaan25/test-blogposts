@@ -1,0 +1,29 @@
+---
+title: 'Two Forms of Pre-rendering'
+date: '2023-03-14'
+tag: ['nextjs', 'coding']
+---
+
+# Two Forms of Pre-rendering
+
+Pre-rendering is a technique used in web development to improve performance and optimize user experience. It involves generating HTML content before it is requested by the client, reducing the load time and providing faster rendering. There are two common forms of pre-rendering:
+
+```ts
+const sum = (num1: number, num2: number): number => {
+    return num1 + num2
+}
+
+console.log(sum(4,8))
+```
+
+## 1. Static Pre-rendering
+
+Static pre-rendering generates HTML during the build process, resulting in fully rendered pages that can be served directly to the client. This approach is ideal for websites with static content or minimal dynamic elements. Static pre-rendering offers excellent performance and search engine optimization (SEO) benefits.
+
+## 2. Server-side Rendering (SSR)
+
+Server-side rendering generates HTML on the server in response to each client request. This allows dynamic content to be rendered on the fly and delivered to the client as a complete HTML page. SSR is suitable for websites with frequently changing data or complex interactions, as it provides up-to-date information to users.
+
+Both static pre-rendering and server-side rendering have their advantages and can be used in combination to create high-performance websites. Developers can choose the appropriate method based on the specific requirements of their projects.
+
+Remember, optimizing the rendering process is crucial for delivering a seamless user experience and ensuring your website performs efficiently.
